@@ -122,7 +122,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        BOARD: [lemonpi, som3588-cat, ufi001c]
+        BOARD: [ufi001c, uz801]
         BRANCH: [edge, vendor]
 
     steps:
@@ -211,7 +211,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        BOARD: [lemonpi, som3588-cat, ufi001c]
+        BOARD: [ufi001c, uz801]
         BRANCH: [ edge, vendor ]
         RELEASE: ${{ fromJson(needs.Prepare_Build.outputs.RELEASE) }}
         DESKTOP: ${{ fromJson(needs.Prepare_Build.outputs.DESKTOP) }}
@@ -327,6 +327,14 @@ jobs:
           cd ./build
           chmod +x ./extensions/package_ufi001c_flasher.sh
           sudo ./extensions/package_ufi001c_flasher.sh
+
+      - name: "Package UZ801 Flasher"
+        if: matrix.BOARD == 'uz801'
+        shell: bash
+        run: |
+          cd ./build
+          chmod +x ./extensions/package_uz801_flasher.sh
+          sudo ./extensions/package_uz801_flasher.sh
 
       - name: "Upload Image Artifact"
         uses: actions/upload-artifact@v4
