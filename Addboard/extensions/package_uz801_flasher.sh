@@ -23,7 +23,7 @@ echo "🚀 开始执行UZ801 Flasher打包脚本..."
 
 # 1. 查找源镜像文件
 echo "--> 1. 正在搜索 UZ801 镜像文件..."
-SOURCE_IMAGE_XZ=$(find "${BUILD_OUTPUT_DIR}" -name "*Ufi00*.img.xz" -type f)
+SOURCE_IMAGE_XZ=$(find "${BUILD_OUTPUT_DIR}" -name "*Uz801*.img.xz" -type f)
 if [ -z "${SOURCE_IMAGE_XZ}" ]; then
   echo "❌ 错误：在目录 ${BUILD_OUTPUT_DIR} 中未找到包含 'UZ801' 的 .img.xz 文件。"
   exit 1
