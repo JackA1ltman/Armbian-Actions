@@ -3,7 +3,7 @@
 # /etc/kernel/postinst.d/99-update-ufi-boot (v2 - Dynamic DTB Loading)
 # This script is automatically triggered after a new kernel is installed.
 # It reads the target DTB from /boot/armbianEnv.txt, generates a new
-# boot.img for UFI001C, and flashes it.
+# boot.img for UZ801, and flashes it.
 #
 
 set -e # Exit immediately if a command fails.
@@ -23,7 +23,7 @@ if [ -z "${KERNEL_VERSION}" ]; then
     exit 0
 fi
 
-echo "--- Running UFI001C Dynamic Boot Updater for Kernel ${KERNEL_VERSION} ---"
+echo "--- Running UZ801 Dynamic Boot Updater for Kernel ${KERNEL_VERSION} ---"
 
 # --- Main Logic ---
 
@@ -39,7 +39,7 @@ fi
 # 2. Check if the DTB file variable (fdtfile) was loaded
 if [ -z "$fdtfile" ]; then
     echo "ERROR: 'fdtfile' variable is not set in ${ENV_FILE}. Aborting." >&2
-    echo "Please add a line like 'fdtfile=qcom/msm8916-thwc-ufi001c-pro.dtb' to it."
+    echo "Please add a line like 'fdtfile=qcom/msm8916-yiming-uz801v3.dtb' to it."
     exit 1
 fi
 
