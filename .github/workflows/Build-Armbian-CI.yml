@@ -115,7 +115,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        BOARD: [lemonpi, som3588-cat, ufi001c]
+        BOARD: [lemonpi, som3588-cat, ufi001c, uz801]
         BRANCH: [edge, vendor]
 
     steps:
