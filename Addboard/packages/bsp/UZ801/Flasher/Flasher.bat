@@ -1,5 +1,5 @@
 @echo off
-@title UZ801 Armbian 全能刷机工具
+@title UFI001C Armbian 全能刷机工具
 color 0A
 mode con cols=105 lines=50
 
@@ -14,7 +14,7 @@ set "IMAGES_PATH=%~dp0images"
 cls
 echo =============================================================================================
 echo.
-echo                   欢迎使用 UZ801 Armbian 全能刷机工具
+echo                   欢迎使用 UFI001C Armbian 全能刷机工具
 echo.
 echo      本脚本将引导您完成所有步骤，包括备份、刷写底层固件和安装 Armbian 系统。
 echo     - 【警告】请确保 'images' 文件夹中只有一个 Armbian 版本的 boot 和 rootfs 镜像！
