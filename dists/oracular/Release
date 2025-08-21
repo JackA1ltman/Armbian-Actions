@@ -1,0 +1,55 @@
+Origin: Armbian
+Label: Armbian
+Codename: oracular
+Date: Thu, 21 Aug 2025 05:37:16 UTC
+Architectures: arm64
+Components: main ufi001c-edge ufi001c-vendor uz801-edge uz801-vendor
+Description: Custom APT repository for Armbian
+MD5Sum:
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-arm64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-arm64/Packages.gz
+ 9a463abafe34882a4ba695a50909e5dd 114 main/binary-arm64/Release
+ 281a43a17676a920ccec403f1bb0614e 6045 ufi001c-edge/binary-arm64/Packages
+ eb33fdab4d06fc8ddf9ed114c5ba47d4 1967 ufi001c-edge/binary-arm64/Packages.gz
+ 5baea718718853da21bcf0cafcb190e6 122 ufi001c-edge/binary-arm64/Release
+ c4c92e71e871f4341be0844fded4d02f 6116 ufi001c-vendor/binary-arm64/Packages
+ 805bfa8b35848da063af41b3c9c77bd3 1973 ufi001c-vendor/binary-arm64/Packages.gz
+ 772add6f49f6bcbd277a0cf6730223a2 124 ufi001c-vendor/binary-arm64/Release
+ 0ff6b484d1fce94a46aae5faffc57e97 6021 uz801-edge/binary-arm64/Packages
+ fffb6e778748ff5dbea54b6838f037d5 1969 uz801-edge/binary-arm64/Packages.gz
+ 12c43394234356f11fbb2464cf1acffe 120 uz801-edge/binary-arm64/Release
+ e686939adb968ff1d042a97d14e96031 6092 uz801-vendor/binary-arm64/Packages
+ b1f3624aa2df25d3fb6d882597573fad 1974 uz801-vendor/binary-arm64/Packages.gz
+ d89f861e285f79cb2749868150c4fc73 122 uz801-vendor/binary-arm64/Release
+SHA1:
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-arm64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-arm64/Packages.gz
+ 8b98a0719036817f16a37f5bbe4598e1374fc1de 114 main/binary-arm64/Release
+ d133367d4d086afe07cf80e6689a263eddd14053 6045 ufi001c-edge/binary-arm64/Packages
+ 0eafdc8550ba22ce561b8dc8f66fbbeb79931d34 1967 ufi001c-edge/binary-arm64/Packages.gz
+ 291e8bb6fdaf170488cea27b97420fe404fe65fe 122 ufi001c-edge/binary-arm64/Release
+ 7d205ca8bc207f2c1bf63a54e29c0acc1c2ab729 6116 ufi001c-vendor/binary-arm64/Packages
+ c76f24238ec916228a161c37fd0513c3617e58f7 1973 ufi001c-vendor/binary-arm64/Packages.gz
+ 1e6c25812f4ff3aa15a5cab20087280eb8b7464c 124 ufi001c-vendor/binary-arm64/Release
+ 7f3aa5fd74a337979b2c10660dacb26dbe88154c 6021 uz801-edge/binary-arm64/Packages
+ 7d9241c132ac7c5327fe90d0686b0620e2af1cc8 1969 uz801-edge/binary-arm64/Packages.gz
+ 70b26e9d0566ef8b48cb4772e06ba1ae32ced0e0 120 uz801-edge/binary-arm64/Release
+ 41a94c8d59d22f80ca562e20a510c948c4f99c4c 6092 uz801-vendor/binary-arm64/Packages
+ e87e5097e32d319ce8049233af8b6ba59426613d 1974 uz801-vendor/binary-arm64/Packages.gz
+ 5a611c139d2d71feaea69534ca2e76d789fe478f 122 uz801-vendor/binary-arm64/Release
+SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-arm64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-arm64/Packages.gz
+ 90f66ac7e53f55062e16abc59cd67cdb81b1cfbfbb3567b24e7ecf75720cf9ec 114 main/binary-arm64/Release
+ ef23a087d2a756b463de005b04c04711225297af2f2607ce612fcc624ebe86d9 6045 ufi001c-edge/binary-arm64/Packages
+ 05497cc74792cc5acaac44df7035d03793773f750afdf227bc8ae9842f0778e0 1967 ufi001c-edge/binary-arm64/Packages.gz
+ d4aa11bf64557fd138555ff5755ae7440d567aa63e9ba9c6792d7f88b8f4f701 122 ufi001c-edge/binary-arm64/Release
+ 9313f314bbcf2df65ad810df0c52354cd026fbcad6aabe37c0d4ff054118f7ef 6116 ufi001c-vendor/binary-arm64/Packages
+ 9a7d8f53d7cab98b88c6115642cda9e33860385cdfd31fe424d5f496687366ef 1973 ufi001c-vendor/binary-arm64/Packages.gz
+ 5526f67e467775f78456c3efdf4dc72ed53383106058d441916c79a23d0a99f3 124 ufi001c-vendor/binary-arm64/Release
+ 62aa47e8f9b237f5b254ef2f64b8fc8fda5b0a64d0d276e8f0d1196446f31d81 6021 uz801-edge/binary-arm64/Packages
+ 795c513634aa6d0ead62cbd2eb309478c85a32f19b014be71f3ff4470edacb28 1969 uz801-edge/binary-arm64/Packages.gz
+ 0ee4c3bc9475157c38fe6d17d8d5cb8fbb98f42e6e06a1409a07f1dbe2ac2b78 120 uz801-edge/binary-arm64/Release
+ d47a5b226e740c6c38492eb4443b23522e33f561604cd087ac4e085548ca2a2a 6092 uz801-vendor/binary-arm64/Packages
+ 67fefc09d9d34754edb7b8e007d48b22364c085a2fb9f33207ff02903e3b00d9 1974 uz801-vendor/binary-arm64/Packages.gz
+ 7983ba071c9123693896d064ddc4e8fb046ed9f9e55f61c2e4ca2a1eef8ad0fd 122 uz801-vendor/binary-arm64/Release

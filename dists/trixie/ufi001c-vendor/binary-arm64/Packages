@@ -1,0 +1,117 @@
+Package: armbian-bsp-cli-ufi001c-vendor
+Version: 25.11.0-trunk
+Architecture: arm64
+Maintainer: John Doe <john.doe@somewhere.on.planet>
+Recommends: bsdutils, parted, util-linux, toilet
+Priority: optional
+Section: kernel
+Filename: pool/ufi001c-vendor/a/armbian-bsp-cli-ufi001c-vendor/armbian-bsp-cli-ufi001c-vendor_25.11.0-trunk_arm64.deb
+Size: 432528
+SHA256: cf5d8799f5ea264c44dac5abcb8923b5e8da63060352e0e1484f60a82fa2e3e1
+SHA1: 876752634284a0f1732762c7c99ed0733caaffa2
+MD5sum: 1a6971e55a7c896e00f05cdd07c58c27
+Description: Armbian CLI BSP for board 'ufi001c' branch 'vendor' 
+Installed-Size: 1409
+Armbian-Original-Hash: 1-PCee86-Vdfb9-H2670-B1e5d-R756d
+Depends: bash, linux-base, u-boot-tools, initramfs-tools, lsb-release, fping, device-tree-compiler, base-files (>= 25.11.0-trunk)
+Replaces: zram-config, armbian-bsp-cli-ufi001c (<< 25.11.0-trunk)
+Breaks: armbian-bsp-cli-ufi001c (<< 25.11.0-trunk)
+Provides: armbian-bsp-cli
+
+Package: armbian-firmware
+Version: 25.11.0-trunk
+Architecture: all
+Maintainer: Armbian Linux <info@armbian.com>
+Conflicts: linux-firmware, firmware-brcm80211, firmware-ralink, firmware-samsung, firmware-realtek, armbian-firmware-full
+Provides: linux-firmware, firmware-brcm80211, firmware-ralink, firmware-samsung, firmware-realtek, armbian-firmware-full
+Priority: optional
+Section: kernel
+Filename: pool/ufi001c-vendor/a/armbian-firmware/armbian-firmware_25.11.0-trunk_all.deb
+Size: 95947416
+SHA256: 8bb3f13b2f7a0ecbe18b80525954b988c32207d36433b1c5c4fd4b132d630ad6
+SHA1: cdc334a86279c6a18b91c6abc98f9e31e2de2e71
+MD5sum: 78770c369d2d4a242703e83c06c30da6
+Description: Armbian - Linux firmware
+Installed-Size: 300925
+Armbian-Original-Hash: 1-SA105f-B6c7f-R448a
+
+Package: linux-dtb-vendor-qcom
+Version: 25.11.0-trunk
+Maintainer: John Doe <john.doe@somewhere.on.planet>
+Architecture: arm64
+Provides: linux-dtb, linux-dtb-armbian, armbian-vendor
+Priority: optional
+Section: kernel
+Filename: pool/ufi001c-vendor/l/linux-dtb-vendor-qcom/linux-dtb-vendor-qcom_25.11.0-trunk_arm64.deb
+Size: 565584
+SHA256: 5c710d4c06119d30d80cd96ee153b0865e157d81a83453a6c5fc9253143da0b5
+SHA1: 97af4d01e1c279ec0cda71601dee90a7baad7f6c
+MD5sum: ecbc21ec7b3308fade138f8ea25499e4
+Description: Armbian Linux vendor DTBs in /boot/dtb-6.6.0-vendor-qcom
+ This package contains device tree blobs from the Linux kernel, version 6.6.0-vendor-qcom
+ version "6.6.0" git revision "038b2c46ae7ea7a027ef31628fa6b6751c0663b5" codename "Hurr durr Ima ninja sloth" drivers hash "0000000000000000" patches hash "a90647dee89d4c41" .config hash "44e307d5b5c1d469" .config hook hash "231397204c6da625" variables hash "c22207b66dc5dd57157df2cd7b9c20559b2ed8ac44b9c3c3b9704002c06b8921" framework bash hash "d200829f3fc8e18d"
+Installed-Size: 16964
+Armbian-Original-Hash: 6.6.0-S038b-D0000-Pa906-C44e3H2313-HK01ba-Vc222-Bd200-R448a
+
+Package: linux-headers-vendor-qcom
+Version: 25.11.0-trunk
+Maintainer: John Doe <john.doe@somewhere.on.planet>
+Architecture: arm64
+Provides: linux-headers, linux-headers-armbian, armbian-vendor
+Depends: make, gcc, libc6-dev, bison, flex, libssl-dev, libelf-dev
+Priority: optional
+Section: devel
+Filename: pool/ufi001c-vendor/l/linux-headers-vendor-qcom/linux-headers-vendor-qcom_25.11.0-trunk_arm64.deb
+Size: 13898964
+SHA256: cee05942924ca42e13cd8ec94b6b34941e1339517fd7655942bcc146866a7488
+SHA1: 39fc25a3651083d4317b2cd8d99000b07e4b7302
+MD5sum: c269d7f2a5908da32d152d83e85749db
+Description: Armbian Linux vendor headers 6.6.0-vendor-qcom
+ This package provides kernel header files for 6.6.0-vendor-qcom
+ .
+ This is useful for DKMS and building of external modules.
+ version "6.6.0" git revision "038b2c46ae7ea7a027ef31628fa6b6751c0663b5" codename "Hurr durr Ima ninja sloth" drivers hash "0000000000000000" patches hash "a90647dee89d4c41" .config hash "44e307d5b5c1d469" .config hook hash "231397204c6da625" variables hash "c22207b66dc5dd57157df2cd7b9c20559b2ed8ac44b9c3c3b9704002c06b8921" framework bash hash "d200829f3fc8e18d"
+Installed-Size: 75125
+Armbian-Original-Hash: 6.6.0-S038b-D0000-Pa906-C44e3H2313-HK01ba-Vc222-Bd200-R448a
+
+Package: linux-image-vendor-qcom
+Version: 25.11.0-trunk
+Source: linux-6.6.0
+Armbian-Kernel-Version: 6.6.0
+Armbian-Kernel-Version-Family: 6.6.0-vendor-qcom
+Architecture: arm64
+Maintainer: John Doe <john.doe@somewhere.on.planet>
+Provides: linux-image, linux-image-armbian, armbian-vendor, wireguard-modules
+Priority: optional
+Section: kernel
+Filename: pool/ufi001c-vendor/l/linux-6.6.0/linux-image-vendor-qcom_25.11.0-trunk_arm64.deb
+Size: 19273756
+SHA256: f8cb7c99692981bec4c40d6b59f5e9e161100d93ac15ed0c4b8cf4d5f1b921f4
+SHA1: 18b1bb274c3f2af9e0f43f623dc8b605036ebe9b
+MD5sum: 8604f73f0c2bf767f3fd0c45214d4c22
+Description: Armbian Linux vendor kernel image 6.6.0-vendor-qcom
+ This package contains the Linux kernel, modules and corresponding other files.
+ version "6.6.0" git revision "038b2c46ae7ea7a027ef31628fa6b6751c0663b5" codename "Hurr durr Ima ninja sloth" drivers hash "0000000000000000" patches hash "a90647dee89d4c41" .config hash "44e307d5b5c1d469" .config hook hash "231397204c6da625" variables hash "c22207b66dc5dd57157df2cd7b9c20559b2ed8ac44b9c3c3b9704002c06b8921" framework bash hash "d200829f3fc8e18d"
+Installed-Size: 107100
+Armbian-Original-Hash: 6.6.0-S038b-D0000-Pa906-C44e3H2313-HK01ba-Vc222-Bd200-R448a
+
+Package: linux-libc-dev-vendor-qcom
+Version: 25.11.0-trunk
+Maintainer: John Doe <john.doe@somewhere.on.planet>
+Provides: linux-libc-dev
+Conflicts: linux-libc-dev
+Architecture: arm64
+Priority: optional
+Section: devel
+Filename: pool/ufi001c-vendor/l/linux-libc-dev-vendor-qcom/linux-libc-dev-vendor-qcom_25.11.0-trunk_arm64.deb
+Size: 1294364
+SHA256: f16a54afb6b2d07cd2a2ba1df926eb26ab6cdb6f1247a10b36012ad089461dc4
+SHA1: 1d9744b7a51e55f08070e3047b0fdcde05d63e5a
+MD5sum: b21a2a38fce8319f9d59b699eb53ae8d
+Description: Armbian Linux support headers for userspace development
+ This package provides userspaces headers from the Linux kernel.  These headers
+ are used by the installed headers for GNU glibc and other system libraries.
+Multi-Arch: same
+Installed-Size: 6116
+Armbian-Original-Hash: 6.6.0-S038b-D0000-Pa906-C44e3H2313-HK01ba-Vc222-Bd200-R448a
+
