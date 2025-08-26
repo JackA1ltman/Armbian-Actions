@@ -1,0 +1,40 @@
+Origin: Armbian
+Label: Armbian
+Codename: oracular
+Architectures: arm64
+Components: main ufi001c-edge ufi001c-vendor uz801-edge uz801-vendor
+Description: Custom APT repository for Armbian
+SignWith: 2C014225ECAF07C6
+
+Origin: Armbian
+Label: Armbian
+Codename: plucky
+Architectures: arm64
+Components: main ufi001c-edge ufi001c-vendor uz801-edge uz801-vendor
+Description: Custom APT repository for Armbian
+SignWith: 2C014225ECAF07C6
+
+Origin: Armbian
+Label: Armbian
+Codename: noble
+Architectures: arm64
+Components: main ufi001c-edge ufi001c-vendor uz801-edge uz801-vendor
+Description: Custom APT repository for Armbian
+SignWith: 2C014225ECAF07C6
+
+Origin: Armbian
+Label: Armbian
+Codename: bookworm
+Architectures: arm64
+Components: main ufi001c-edge ufi001c-vendor uz801-edge uz801-vendor
+Description: Custom APT repository for Armbian
+SignWith: 2C014225ECAF07C6
+
+Origin: Armbian
+Label: Armbian
+Codename: trixie
+Architectures: arm64
+Components: main ufi001c-edge ufi001c-vendor uz801-edge uz801-vendor
+Description: Custom APT repository for Armbian
+SignWith: 2C014225ECAF07C6
+

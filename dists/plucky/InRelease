@@ -1,0 +1,74 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: Armbian
+Label: Armbian
+Codename: plucky
+Date: Tue, 26 Aug 2025 05:12:25 UTC
+Architectures: arm64
+Components: main ufi001c-edge ufi001c-vendor uz801-edge uz801-vendor
+Description: Custom APT repository for Armbian
+MD5Sum:
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-arm64/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-arm64/Packages.gz
+ 9a463abafe34882a4ba695a50909e5dd 114 main/binary-arm64/Release
+ 1a008fe6244af08d75f47bbb27c0fb82 6045 ufi001c-edge/binary-arm64/Packages
+ 01c71095f8914b01d6d041c539912ff4 1960 ufi001c-edge/binary-arm64/Packages.gz
+ 5baea718718853da21bcf0cafcb190e6 122 ufi001c-edge/binary-arm64/Release
+ 34fc7971e5593f6ed2a6d2a0b3cd7db9 6116 ufi001c-vendor/binary-arm64/Packages
+ 8693fd532147dd92e20bed3c2e55b925 1970 ufi001c-vendor/binary-arm64/Packages.gz
+ 772add6f49f6bcbd277a0cf6730223a2 124 ufi001c-vendor/binary-arm64/Release
+ b84e3f8489a15fe0f172f94c3f5d8f5e 6021 uz801-edge/binary-arm64/Packages
+ 3247f24ff25ab46cfeede73c4d92d58d 1961 uz801-edge/binary-arm64/Packages.gz
+ 12c43394234356f11fbb2464cf1acffe 120 uz801-edge/binary-arm64/Release
+ 2a5c3012267cab36e79b2dc74d14709c 6092 uz801-vendor/binary-arm64/Packages
+ 1fe92b8436cb550fe8316539a40b9ac4 1972 uz801-vendor/binary-arm64/Packages.gz
+ d89f861e285f79cb2749868150c4fc73 122 uz801-vendor/binary-arm64/Release
+SHA1:
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-arm64/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-arm64/Packages.gz
+ 8b98a0719036817f16a37f5bbe4598e1374fc1de 114 main/binary-arm64/Release
+ 8737c01440fb61d80654f5049ba453d7ff32b801 6045 ufi001c-edge/binary-arm64/Packages
+ 605ee71ecd333861a92cf1e80a1838a163272bd9 1960 ufi001c-edge/binary-arm64/Packages.gz
+ 291e8bb6fdaf170488cea27b97420fe404fe65fe 122 ufi001c-edge/binary-arm64/Release
+ 7d1418b672c008ee5da987202d4e359cf4394771 6116 ufi001c-vendor/binary-arm64/Packages
+ d9fb5f9ce4fca41778de96d5adeaad7cb18482c9 1970 ufi001c-vendor/binary-arm64/Packages.gz
+ 1e6c25812f4ff3aa15a5cab20087280eb8b7464c 124 ufi001c-vendor/binary-arm64/Release
+ 2b5b3a35f790b571bb28a4025255c9caa0cfea4f 6021 uz801-edge/binary-arm64/Packages
+ b00c9012aed10cde0e4bffbdbddff78b689156ad 1961 uz801-edge/binary-arm64/Packages.gz
+ 70b26e9d0566ef8b48cb4772e06ba1ae32ced0e0 120 uz801-edge/binary-arm64/Release
+ 4e824f25e1d31ccb6038e359dca1a75a9deecf25 6092 uz801-vendor/binary-arm64/Packages
+ e50b83acff529ce93c5356f1c695480723326211 1972 uz801-vendor/binary-arm64/Packages.gz
+ 5a611c139d2d71feaea69534ca2e76d789fe478f 122 uz801-vendor/binary-arm64/Release
+SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-arm64/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-arm64/Packages.gz
+ 90f66ac7e53f55062e16abc59cd67cdb81b1cfbfbb3567b24e7ecf75720cf9ec 114 main/binary-arm64/Release
+ 2c2d953e1d007e424e9054ad7789da5f6df48241c1086eaea1dad78b875a970e 6045 ufi001c-edge/binary-arm64/Packages
+ 42fdd33428b7aee9aa88ea42a86924603b848806e44d93ed875430f0b78bba3f 1960 ufi001c-edge/binary-arm64/Packages.gz
+ d4aa11bf64557fd138555ff5755ae7440d567aa63e9ba9c6792d7f88b8f4f701 122 ufi001c-edge/binary-arm64/Release
+ 98176a3c804253964f8a3415d384ee4a7de1f9c28beb4f8dedacd4e92b215613 6116 ufi001c-vendor/binary-arm64/Packages
+ 2a5dcda386130da9d5c4a1b4a8d3e2ee3146607ef2f2182db75f6eb97ead32fc 1970 ufi001c-vendor/binary-arm64/Packages.gz
+ 5526f67e467775f78456c3efdf4dc72ed53383106058d441916c79a23d0a99f3 124 ufi001c-vendor/binary-arm64/Release
+ 661250a86fda400dddc44c52a9882ca5fb7af06f4a8e72a29d1c70ed54592ae4 6021 uz801-edge/binary-arm64/Packages
+ 06160674c5267f921946e6a9d545df64a9398f73d9f1f4ecb88909fa6bd8f90a 1961 uz801-edge/binary-arm64/Packages.gz
+ 0ee4c3bc9475157c38fe6d17d8d5cb8fbb98f42e6e06a1409a07f1dbe2ac2b78 120 uz801-edge/binary-arm64/Release
+ ab11e0c1b73bbf6a1a0617d40573ae423b6605314a72b60f93932d93d139f549 6092 uz801-vendor/binary-arm64/Packages
+ 22398b96e0ca1cecf820685c370fab4d1b99d0aeaa512e2ab6f076c86083976f 1972 uz801-vendor/binary-arm64/Packages.gz
+ 7983ba071c9123693896d064ddc4e8fb046ed9f9e55f61c2e4ca2a1eef8ad0fd 122 uz801-vendor/binary-arm64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEqUcxcUkl39W4ZdJvLAFCJeyvB8YFAmitQjkACgkQLAFCJeyv
+B8ZEWRAAq5Kjc2eFWA7oHeSr2v6vVjnKX49O7w6B/I3Wr2v4wC+CJz7QhFk4QX7w
+F45ri32+8TsPTqmXBblQFgtlf7BqRuu94HuBrYi/0gALZJZgFr50nFL2xgBsDpqq
+PU9KBvrJU3GLk1NvB8t7tbDmLUqhxQU4Ka+o3ksObQkGmGwH3xh21SYJCJ2KPG1s
+A2jtX7L2xVS6Cp5efsmSdJdGywrP1SeGpW8aFCadLS0nPT+bZ55dS1BgZU44sHEM
+cKDamYkp4Hvt5VDjbeBbxOFH12dt+uiR8C7EXXB4EF0P1VprANyLbl5oOaDtMmCE
+sjY55ykfdWfm8a0ffDoyoE26c0cllqomOUQg839BQw00tR+hB8AelLGpt+jnJ9C2
+6dg4NQcbdpqNul+i/GuD0TWW7NwgIEVu4OZq5AQZSnPtw//+4kNfrng1IpnD7TnK
+lOegMewI10EHg+W1Xablgva8Ni/4FFIIqFoAq5bbfm74ubrFhUHodYLlj+479zLJ
+IMf8lNQ1Dk+fXU0WG7hO+dNqtocHf6iJOn8tU5feX5bN6SWavv/8+gSRyJ1+lmvZ
+5/nSypDb9uH/3x1JpeZOPh4a5TUA674DcqQbA1XPJztOFspjEalSt4D16u8PfQgD
+GAfwnQ/3I7hznVXGqAwQekYKRe0o0rmSxyzMC+OMsXWwY7HV+Ms=
+=2E2K
+-----END PGP SIGNATURE-----
